@@ -58,10 +58,6 @@ body {
   /* background-color: black; */
 }
 
-#subtext {
-  margin-bottom: 10px;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -94,7 +90,7 @@ a:hover {
   width: 30%;
   border-radius: 10%;
   border: 5px solid black;
-  /* margin-bottom: 10%; */
+  /* margin-bottom: 30%; */
 }
 
 /* 
