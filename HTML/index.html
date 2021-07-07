@@ -30,15 +30,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
-    <!-- Josefin Sans Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- Rubik Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,31 +37,61 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body id="body">
     <!-- Intro Sequence-->
-
-    <!-- Part 1 -->
     <div id="introduction" class="intro">
       <h1 class="animate__animated introanim">
         Hi. <span class="animate1"></span>
       </h1>
     </div>
 
-    <!-- Part 2 -->
+    <!-- Main Page -->
     <div id="main" class="mainanim">
-      <h1><span class="animate2"></span></h1>
-      <p id="subtext" class="slide-up-fade-in description"></p>
-      <div>
-        <img src="../images/me.jpg" alt="Me" class="slide-up-fade-in image" />
-      </div>
+      <h2><span class="animate2"></span></h2>
+      <!-- Description -->
+      <p id="subtext" class="slide-up-fade-in description">
+        Hello! I am Bilal Qureshi, a recent graduate from City, University of
+        London with a degree in Computer Science. I am currently working on
+        improving my web development skills through developing and enchancing
+        this website. I am also looking to further improve my android
+        application Horto using <i>Flutter</i> and <i>Unity</i>. I love to
+        constantly broaden my knowledge in all areas, learn new frameworks and
+        debug a lot of my own broken code. <br />
+        <br />
+        When I'm not at my desk, I get my fingers dirty with plants, read a few
+        books on my kindle and play some PC games from time to time.
+      </p>
+      <!-- Image -->
+      <img src="../images/me.jpg" alt="Me" class="slide-up-fade-in image" />
     </div>
 
+    <!-- Links -->
     <div id="links" class="slide-up-fade-in">
-      <a href="placeholder.html">Link 1</a>
-      <a href="projects.html">Link 2</a>
-      <a href="contact.html">Link 3</a>
+      <a href="placeholder.html" id="hvr-shrink"><b>Projects</b></a>
+      <a
+        href="https://github.com/bilal-qureshi-dev"
+        class="fa fa-github"
+        id="hvr-shrink"
+        style="font-size: 36px"
+      ></a>
+      <a href="../Content/CV.pdf" id="hvr-shrink" download="Bilal Qureshi"
+        ><b>CV</b></a
+      >
+      <a
+        href="https://www.linkedin.com/in/bilal-qureshi-10011"
+        class="fa fa-linkedin"
+        id="hvr-shrink"
+        style="font-size: 36px"
+      ></a>
+      <a href="placeholder.html" id="hvr-shrink"><b>Blog</b></a>
     </div>
 
     <script src="../JS/introAnim.js"></script>

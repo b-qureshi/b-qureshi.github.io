@@ -1,23 +1,23 @@
+// Main Intro animation
 var typed = new Typed(".animate1", {
     strings: [
-        "^1000 This is an intro message",
+        "^300 I'm Bilal Qureshi",
     ],
     typeSpeed: 60,
-    backSpeed: 60,
-    smartBackspace: true,
+    loop: false,
+    showCursor: true
+  });
+
+  // Sub heading animation
+  var typed2 = new Typed(".animate2", {
+    strings: [
+        "^3300 about me",
+    ],
+    typeSpeed: 60,
     loop: false,
     showCursor: false
   });
 
-  var typed2 = new Typed(".animate2", {
-    strings: [
-        "^4000 Hello, how are you",
-    ],
-    typeSpeed: 60,
-    backSpeed: 60,
-    smartBackspace: true,
-    loop: false,
-    showCursor: false
-  });
+
 
 
