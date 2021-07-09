@@ -34,13 +34,31 @@ body {
   -webkit-animation-delay: 0s, 3s;
 }
 
-.mainanim {
+.full-descrip {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
   flex-direction: column;
+  margin-left: 10%;
+  /* margin-top: %; */
+}
+
+.mainanim {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main-image {
+  /* align-self: flex-start; */
+  width: 70%;
+  margin-left: 60%;
 }
 
 /* 
@@ -78,7 +96,7 @@ a:hover {
 .slide-up-fade-in.description {
   width: 50%;
   /* height: auto; */
-  margin-right: 15%;
+  /* margin-right: 5%; */
 }
 
 /* 
@@ -96,6 +114,7 @@ a:hover {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+  margin-right: 10%;
 }
 
 /* 
