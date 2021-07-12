@@ -1,6 +1,5 @@
-// Main page delay
-delay = '^3300';
-fadeInAnim = document.documentElement;
+var delay = '^3300'; // Delay Value
+var pageCSS = document.documentElement; // Get CSS Stylesheet
 
 // Main Intro animation
 if (window.sessionStorage.getItem('loaded') != 'true'){
@@ -12,13 +11,13 @@ if (window.sessionStorage.getItem('loaded') != 'true'){
       loop: false,
       showCursor: true
     });
-  window.sessionStorage.setItem('loaded', 'true')
-
-  delay = '^3300';
-  fadeInAnim.style.setProperty('--delay-fade', '3.4s')
+  window.sessionStorage.setItem('loaded', 'true'); // Set page loaded to true
+  delay = '^3300';                                 // Set delay to the next section
+  pageCSS.style.setProperty('--delay-fade', '3.4s') // Set the fade animation delay 
 } else {
+  // Reset all the values for introduction animation
   delay = '';
-  fadeInAnim.style.setProperty('--delay-fade', '0s');
+  pageCSS.style.setProperty('--delay-fade', '0s');
   document.getElementById("introduction").style.opacity = "0"; 
 }
 
