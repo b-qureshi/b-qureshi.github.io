@@ -3,6 +3,7 @@
  */
 :root {
   --linkColour: rgba(255, 255, 255, 0.5);
+  --delay-fade: 3.4s;
 }
 
 /*  
@@ -77,9 +78,12 @@ body {
 }
 
 a {
+  display: block;
   text-decoration: none;
   color: black;
-  font-size: large;
+  font-size: larger;
+  width: 10px;
+  height: 5px;
 }
 
 a:hover {
@@ -146,7 +150,7 @@ a:hover {
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode: forwards; /*IE 10+*/
 
-  animation-delay: 3.4s;
+  animation-delay: var(--delay-fade);
 
   opacity: 0;
   opacity: 1\9;
